@@ -1,0 +1,35 @@
+
+.sv_qstn .sq-root {
+    background-color: #fff;
+    border: 1px solid gray;
+    border-left: 4px solid #DC143C;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.sv_qstn .sq-root-cb {
+    border-left: 4px solid orange;
+}
+
+.sq-title {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.sq-title-required {
+    color: red;
+}
+
+.sq-label {
+    margin-left: 30px;
+}
+
+
+.progress-bar {
+    background-color: #DC143C;
+}
+
+.panel-footer {
+    border: 0;
+}
