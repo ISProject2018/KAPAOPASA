@@ -9,7 +9,7 @@ http://www.templatemo.com/tm-490-comila
 body
 	{
 		background: #ffffff;
-   font-family: 'Rajdhani', sans-serif;
+   font-family: 'Athiti', sans-serif;
     font-weight: 400;
 	}
 
@@ -63,15 +63,17 @@ strong {
 
 #about{
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
-#feature,
+
 #courses,
 #contact{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+
 
 
 footer {
@@ -241,7 +243,7 @@ nav{
 
 nav.no-bg{
   z-index: 9;
-  background-color: #DC143C;
+  background-color: #9b001f;
   transition: 1s;
 }
 
@@ -280,12 +282,12 @@ navbar.navbar-toggle:hover,
 }
 
 nav.scrolldown  {
-  background-color:#DC143C;
+  background-color:#9b001f;
 }
 @media (max-width: 767px){
   nav{
     z-index: 9;
-    background-color: #DC143C;
+    background-color: #9b001f;
     transition: 1s;
   }
 }
@@ -359,7 +361,7 @@ nav.scrolldown  {
   padding-top: 10px;
 }
 #about .btn {
-  background: #FF8E8E;
+  background: #242424;
   border: 3px solid #ffffff;
   border-radius: 0px;
   color: #ffffff;
@@ -373,7 +375,7 @@ nav.scrolldown  {
 }
 
 #about .btn:hover {
-background: red;
+background: #f1c11a;
 color: #ffffff;
 border-color: transparent;
 }
@@ -431,8 +433,8 @@ border-color: transparent;
     -o-background-size: cover;
     background-size: cover;
 	color:#fff;
-  	background-color:rgb(180, 180, 180);
-  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+  	background-color:rgb(255, 255, 255);
+  	font-family: 'Athiti',Arial,Helvetica,Sans-Serif;
 }
 
 
