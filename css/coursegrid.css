@@ -1,5 +1,6 @@
 .courses-item {
   display: block;
+  height: 950px;
   width: 100%;
   position: relative;
   background: #fff;
@@ -16,6 +17,7 @@
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
 .courses-item figure {
   height: 240px;
   overflow: hidden;
@@ -143,5 +145,22 @@
 @media screen and (max-width: 768px) {
   .macbook-wrap img {
     max-width: 100%;
+  }
+}
+.price {
+  position: absolute;
+  width: 100%;
+  bottom: 15px;
+} 
+@media (max-width: 768px) {
+  .price {
+    position: absolute;;
+    width: 100%;
+    bottom: 15px;
+  
+  }
+  .courses-item {
+    height: 100%; 
+    padding-bottom: 30px;
   }
 }
