@@ -93,7 +93,7 @@ http://www.templatemo.com/tm-490-comila
                       </ul>
                     </li>
                     <li>
-                      <a href="#">
+                      <a data-toggle="modal" data-target="#LoginModal" href="#">
                         <span class="fa fa-sign-in"></span> เข้าสู่ระบบ</a>
                     </li>
                   </ul>
@@ -187,6 +187,49 @@ http://www.templatemo.com/tm-490-comila
               </div>
             </div>
           </footer>
+
+
+          <!-- Modal -->
+  <div class="modal fade" id="LoginModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">ล็อกอินเพื่อเข้าสู่ระบบของเรา</h3>
+              </div>
+              <div class="panel-body">
+                <form>
+                  <fieldset>
+                    <div class="form-group">
+                      <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
+                    </div>
+                    <div class="form-group">
+                      <input class="form-control" placeholder="Password" name="password" type="password" value="">
+                    </div>
+                    <!-- Change this to a button or input when using this as a form -->
+                    <button type="button" class="btn btn-danger btn-block">เข้าสู่ระบบ</button>
+                    <p>คุณเป็นสมาชิกใหม่หรือไม่
+                      <a href="sign_up.html" class="">สมัครสามาชิก</a>
+                    </p>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">ยกเลิก</button>
+                    </div>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 
 
 
