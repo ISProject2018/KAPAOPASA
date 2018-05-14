@@ -6,27 +6,20 @@
     <meta charset="utf-8">
 
     <title>KAPAOPASA</title>
-    <!--
-Comila Template
-http://www.templatemo.com/tm-490-comila
--->
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="">
     <meta name="description" content="">
-
-    <!-- stylesheets css -->
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/animate.min.css">
     <link rel="stylesheet" href="../css/et-line-font.css">
     <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/vegas.min.css">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/coursegrid.css">
+    <link rel="stylesheet" href="../css/popup_msg.css">
     <link href="../css/stylesheet.css" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />
-    
-    
+
+
 
 </head>
 
@@ -82,20 +75,20 @@ http://www.templatemo.com/tm-490-comila
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">เปลี่ยนภาษา
-                              <span class="caret"></span>
+                                <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                              <li>
-                                <a href="../booking.html">English</a>
-                              </li>
-                              <li>
-                                <a href="booking.html">ไทย</a>
-                              </li>
+                                <li>
+                                    <a href="../booking.html">English</a>
+                                </li>
+                                <li>
+                                    <a href="booking.html">ไทย</a>
+                                </li>
                             </ul>
-                          </li>
+                        </li>
                         <li>
-                            <a href="#">
-                                <span class="fa fa-sign-in"></span> เข้าสู่ระบบ</a>
+                            <a href="index.html">
+                                <span class="fa fa-sign-in"></span> ออกจากระบบ</a>
                         </li>
                     </ul>
                 </div>
@@ -103,146 +96,326 @@ http://www.templatemo.com/tm-490-comila
         </nav>
     </header>
 
-    <section id = "booking" style="padding-top: 70px">
-    <div class="table-responsive">
-        <table class="table" id="table" >
-            <thead>
-                <tr>
-                    <th scope="col">เวลา</th>
-                    <th scope="col">01/05/2018</th>
-                    <th scope="col">02/05/2018</th>
-                    <th scope="col">03/05/2018</th>
-                    <th scope="col">04/05/2018</th>
-                    <th scope="col">05/05/2018</th>
-                    <th scope="col">06/05/2018</th>
-                    <th scope="col">07/05/2018</th>
-                </tr>
-            </thead>
-            
-            <tbody>
-                <tr>
-                    <th><p class="time">8.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
+    <section id="booking" style="padding-top: 70px">
+        <div class="table-responsive">
+            <table class="table" id="table">
+                <thead>
+                    <tr>
+                        <th scope="col">เวลา</th>
+                        <th scope="col">01/05/2018</th>
+                        <th scope="col">02/05/2018</th>
+                        <th scope="col">03/05/2018</th>
+                        <th scope="col">04/05/2018</th>
+                        <th scope="col">05/05/2018</th>
+                        <th scope="col">06/05/2018</th>
+                        <th scope="col">07/05/2018</th>
+                    </tr>
+                </thead>
 
-                <tr>
-                    <th><p class="time">9.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
+                <tbody>
+                    <tr>
+                        <th>
+                            <p class="time">8.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <a href="#" id="addClass">
+                                <button type="button" class="btn btn-block">ว่าง</button>
+                            </a>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <a href="#" id="addClass">
+                                <button type="button" class="btn btn-block">ว่าง</button>
+                            </a>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <th><p class="time">10.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
+                    <tr>
+                        <th>
+                            <p class="time">9.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <th><p class="time">11.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
+                    <tr>
+                        <th>
+                            <p class="time">10.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <th><p class="time">12.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
+                    <tr>
+                        <th>
+                            <p class="time">11.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <th><p class="time">12.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
+                    <tr>
+                        <th>
+                            <p class="time">12.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <th><p class="time">13.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
-                <tr>
-                    <th><p class="time">14.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
+                    <tr>
+                        <th>
+                            <p class="time">12.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <th><p class="time">14.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
-                <tr>
-                    <th><p class="time">15.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
-                <tr>
-                    <th><p class="time">16.00</p></th>
-                    <td><button type="button" class="btn btn-danger btn-block" >เต็ม</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-success btn-block">จองสำเร็จ</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                    <td><button type="button" class="btn btn-block">ว่าง</button></td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-       
+                    <tr>
+                        <th>
+                            <p class="time">13.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <p class="time">14.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
 
-        
+                    <tr>
+                        <th>
+                            <p class="time">14.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <p class="time">15.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <p class="time">16.00</p>
+                        </th>
+                        <td>
+                            <button type="button" class="btn btn-danger btn-block">ไม่ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-success btn-block">จองแล้ว</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                        <td>
+                            <button type="button" class="btn btn-block">ว่าง</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
 
     </section>
 
@@ -292,15 +465,87 @@ http://www.templatemo.com/tm-490-comila
                 </div>
 
                 <div class="col-md-3 col-sm-5">
-                        <div style="padding-top: 20px;padding-left: 15px" class="wow bounceIn" data-wow-delay="1.9s">
-                          <img src="../images/image.png" width="140" height="240" style="display: inline;">
-                        </div>
-                      </div>
+                    <div style="padding-top: 20px;padding-left: 15px" class="wow bounceIn" data-wow-delay="1.9s">
+                        <img src="images/image.png" width="140" height="240" style="display: inline;">
+                    </div>
+                </div>
 
             </div>
         </div>
     </footer>
 
+    <!-- Chat popup -->
+    <div class="popup-box chat-popup" id="qnimate">
+        <div class="popup-head">
+            <div class="popup-head-left pull-left">
+                <img src="../images/user.png" alt="user"> คุณครู</div>
+            <button class="chat-header-button" data-widget="remove" id="removeClass">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="popup-messages">
+            <div class="direct-chat-messages">
+                <div class="chat-box-single-line">
+                    <abbr class="timestamp">13 มกราคม 2018</abbr>
+                </div>
+
+                <div class="direct-chat-info clearfix">
+                    <span class="direct-chat-name-right pull-right">นักเรียน</span>
+                </div>
+                <!-- /.direct-chat-info -->
+                <img alt="message user image" src="../images/user.png" class="direct-chat-img-right">
+                <!-- /.direct-chat-img -->
+                <div class="direct-chat-text-right">
+                    Hey bro, how’s everything going ?
+                </div>
+                <div class="direct-chat-info clearfix">
+                    <span class="direct-chat-timestamp pull-left">3.36 PM</span>
+                </div>
+
+                <div class="direct-chat-info clearfix">
+                    <span class="direct-chat-name pull-left">คุณครู</span>
+                </div>
+                <!-- /.direct-chat-info -->
+                <img alt="message user image" src="../images/user.png" class="direct-chat-img">
+                <!-- /.direct-chat-img -->
+                <div class="direct-chat-text">
+                    Hey bro, how’s everything going ?
+                </div>
+                <div class="direct-chat-info clearfix">
+                    <span class="direct-chat-timestamp pull-right">3.36 PM</span>
+                </div>
+
+
+                <div class="direct-chat-info clearfix">
+                    <span class="direct-chat-name-right pull-right">นักเรียน</span>
+                </div>
+                <!-- /.direct-chat-info -->
+                <img alt="message user image" src="../images/user.png" class="direct-chat-img-right">
+                <!-- /.direct-chat-img -->
+                <div class="direct-chat-text-right">
+                    Hey bro, how’s everything going ?
+                </div>
+                <div class="direct-chat-info clearfix">
+                    <span class="direct-chat-timestamp pull-left">3.36 PM</span>
+                </div>
+            </div>
+
+        </div>
+        <div class="popup-messages-footer">
+            <textarea id="status_message" placeholder="Type a message..." rows="10" cols="40" name="message"></textarea>
+            <div class="btn-footer">
+                <button class="btn_accept">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                </button>
+                <button class="btn_decline">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+                <button class="btn_send pull-right">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Back top -->
@@ -315,12 +560,17 @@ http://www.templatemo.com/tm-490-comila
     <script src="../js/wow.min.js"></script>
     <script src="../js/smoothscroll.js"></script>
     <script src="../js/custom.js"></script>
-    
-  
+    <script>
+        $(function () {
+            $("#addClass").click(function () {
+                $('#qnimate').addClass('popup-box-on');
+            });
 
-   
-
-
+            $("#removeClass").click(function () {
+                $('#qnimate').removeClass('popup-box-on');
+            });
+        })
+    </script>
 
 </body>
 
