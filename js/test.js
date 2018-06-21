@@ -15,7 +15,7 @@ var json = {
             questions: [
                 {
                     type: "html",
-                    html: "You are about to start knowledge test. <br/>You have 2 minutes for every page and 40 minutes for the whole test of 20 questions.<br/>Please click on <b>'Start'</b> button when you are ready."
+                    html: "You are about to start knowledge test. <br/>You have 2 minutes for every page and 40 minutes for the whole test of 15 questions.<br/>Please click on <b>'Start'</b> button when you are ready."
                 }
             ]
         }, {
@@ -23,13 +23,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 01",
-                    title: "Which word is negative",
+                    title: "Jacke's parents _______ and so I am sure they would love to go the exhibition.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "Optimistic", "Polite", "Diligent", "Rude"
+                        "like very much Picasso's paintings", "like Picasso's paintings very much", "much Picasso's paintings like", "much like Picasso's painthings"
                     ],
-                    correctAnswer: "Rude"
+                    correctAnswer: "like Picasso's paintings very much"
                 }
             ]
         }, {
@@ -37,13 +37,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 02",
-                    title: "Which is not correct?",
+                    title: "Did you have any problems ________ our house?",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "Can you tell me where the park is please?", "I have ever been to London", "Do you know where the tourist is?", "I'm sorry I haven't get a map"
+                        "to find", "finding", "for finding", "find"
                     ],
-                    correctAnswer: "Can you tell me where the park is please?"
+                    correctAnswer: "finding"
                 }
             ]
         }, {
@@ -51,13 +51,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 03",
-                    title: "_____ do you travel to the WSE centre?",
+                    title: "Please don't forget to ring me when you _________ home.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "How", "Can", "Where", "Who"
+                        "get", "are going to get", "are getting", "will get"
                     ],
-                    correctAnswer: "How"
+                    correctAnswer: "get"
                 }
             ]
         }, {
@@ -65,13 +65,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 04",
-                    title: "Accommodation and full board _____ $179 per participant.",
+                    title: "We __________ a lovely three weeks in the south of Spain last year.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "room rate", "is room rate", "is costing about", "cost about"
+                        "took", "did", "passed", "spent"
                     ],
-                    correctAnswer: "cost about"
+                    correctAnswer: "spent"
                 }
             ]
         }, {
@@ -79,13 +79,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 05",
-                    title: "Which one is incorrect?",
+                    title: "Suzie and John are planning to get married and ________ a lot of children.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "You have chosen a great café.", "Your answer was very good too.", "You spoke very well in the public speaking contest.", "The book was very intersted, especially the first part."
+                        "have", "bring", "get", "make"
                     ],
-                    correctAnswer: "The book was very intersted, especially the first part."
+                    correctAnswer: "have"
                 }
             ]
         }, {
@@ -93,13 +93,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 06",
-                    title: "Which sentence has no mistakes?",
+                    title: "I must __________ for being so late.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "I have been to high school from 2006-2010.", "We have studied English since 2 months.", "Have you ever taken time off school to go on holiday?", "Lena is here for about 2 months already."
+                        "regret", "excuse", "apologise", "pardon"
                     ],
-                    correctAnswer: "Lena is here for about 2 months already."
+                    correctAnswer: "apologise"
                 }
             ]
         }, {
@@ -107,13 +107,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 07",
-                    title: "Why exactly are islands so important for wildlife?",
+                    title: "How ____________ have you and your family lived in this flat?",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "Because they are home to many birds and reptiles.", "Because islands have produced many different species.", "Because islands always suffer from most extinctions.", "Because evolution is inhibited on islands."
+                        "much", "soon", "often", "long"
                     ],
-                    correctAnswer: "Because they are home to many birds and reptiles."
+                    correctAnswer: "long"
                 }
             ]
         }, {
@@ -121,13 +121,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 08",
-                    title: "I gave the vital customer the wrong order so I had to _____.",
+                    title: "Skye is a beautiful island off the west __________ of Scotland.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "compliment him", "complement him", "confuse him", "compensate him"
+                        "border", "beach", "edge", "coast"
                     ],
-                    correctAnswer: "compensate him"
+                    correctAnswer: "coast"
                 }
             ]
         }, {
@@ -135,13 +135,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 09",
-                    title: "In the year 2018 most people ____ have flying cars.",
+                    title: "If you do well at school you will have the ________ to go to university.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "must", "will", "would", "may"
+                        "chance", "luck", "result", "hope"
                     ],
-                    correctAnswer: "will"
+                    correctAnswer: "chance"
                 }
             ]
         }, {
@@ -149,13 +149,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 10",
-                    title: "Can you ____ me through to Helen please?",
+                    title: "We may have a picnic tomorrow but it will depend _________ the weather.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "put", "pass", "ask", "give"
+                        "in", "of", "on", "off"
                     ],
-                    correctAnswer: "put"
+                    correctAnswer: "on"
                 }
             ]
         }, {
@@ -163,13 +163,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 11",
-                    title: "Delegates are not _____",
+                    title: "I love playing table tennis but I'm not very good ________ it.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "auditoriums", "attendees", "conference-goers", "representatives"
+                        "in", "with", "for", "at"
                     ],
-                    correctAnswer: "auditoriums"
+                    correctAnswer: "at"
                 }
             ]
         }, {
@@ -177,13 +177,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 12",
-                    title: "We have wanted to go to Mexico ____ I saw a film about it.",
+                    title: "It's hot in here - would you mind ______ the window?",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "when", "since", "owing to", "before"
+                        "opening", "open", "opened", "to open"
                     ],
-                    correctAnswer: "owing to"
+                    correctAnswer: "opening"
                 }
             ]
         }, {
@@ -191,13 +191,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 13",
-                    title: "Which word doesn’t belong in the group?",
+                    title: "One of my grandparents __________ born in South Africa.",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "Foreign", "Exotic", "Alien", "Extinct"
+                        "are", "is", "was", "were"
                     ],
-                    correctAnswer: "Extinct"
+                    correctAnswer: "is"
                 }
             ]
         }, {
@@ -205,13 +205,13 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 14",
-                    title: "Which is not correct",
+                    title: "Would you like to ________ shopping with me this afternoon?",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "The city is almost completely ruined.", "I'm interested in science.", "The restaurant makes you smoke.", "We've been on a wonderful trip today."
+                        "do", "go", "make", "get"
                     ],
-                    correctAnswer: "I'm interested in science."
+                    correctAnswer: "go"
                 }
             ]
         }, {
@@ -219,86 +219,16 @@ var json = {
                 {
                     type: "radiogroup",
                     name: "Question 15",
-                    title: "____ a compliment",
+                    title: "I'm very _________ - could I have a glass of water,please?",
                     choicesOrder: "random",
                     isRequired: true,
                     choices: [
-                        "Pay", "Earn", "Sell", "Borrow"
+                        "empty", "thirsty", "hungry", "dirty"
                     ],
-                    correctAnswer: "Earn"
+                    correctAnswer: "thirsty"
                 }
             ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Question 16",
-                    title: "Which of these words is negative?",
-                    choicesOrder: "random",
-                    isRequired: true,
-                    choices: [
-                        "Distinctive", "Intimate", "Terrifying", "Picturesque"
-                    ],
-                    correctAnswer: "Terrifying"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Question 17",
-                    title: "Which is not a common phrase?",
-                    choicesOrder: "random",
-                    isRequired: true,
-                    choices: [
-                        "The more the merrier.", "Better luck next time.", "Don't worry – my lips are sealed.", "Stop staring at me and take a photo."
-                    ],
-                    correctAnswer: "Stop staring at me and take a photo."
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Question 18",
-                    title: "Which means a mix of chemicals that can kill someone or something if eaten?",
-                    choicesOrder: "random",
-                    isRequired: true,
-                    choices: [
-                        "Poison", "Campaign", "Ecologist", "Tonne"
-                    ],
-                    correctAnswer: "Poison"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Question 19",
-                    title: "Which is a vegetable, not an animal:",
-                    choicesOrder: "random",
-                    isRequired: true,
-                    choices: [
-                        "Aubergine", "Lobster", "Lamb", "Goose"
-                    ],
-                    correctAnswer: "Aubergine"
-                }
-            ]
-        }, {
-            questions: [
-                {
-                    type: "radiogroup",
-                    name: "Question 20",
-                    title: "Which is correct:",
-                    choicesOrder: "random",
-                    isRequired: true,
-                    choices: [
-                        "Before crossing the street look both ways.", "This is a one-direction street.", "Could you tell me how to get to Paris?", "Before to set off, have your car serviced."
-                    ],
-                    correctAnswer: "Could you tell me how to get to Paris?"
-                }
-            ]
-        }
+       },
     ],
     completedHtml: "<h4>You have answered correctly <b>{correctedAnswers}%</b> </h4>"
 };
